@@ -7,7 +7,7 @@ let {
   updateOneDrinks,
   patchOnDrinks,
   deleteOneDrinks,
-} = require("./drinksdb.ts");
+} = require("./drinksdb.js");
 const { writeJson } = require("./utils");
 
 http
